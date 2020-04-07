@@ -32,6 +32,7 @@ const App = () => {
             onChange={(e) => changedHandler(e, "population")}
             placeholder="Please Enter a value"
             type="number"
+            id="population"
             name="population"
             data-population
             className="input1"
@@ -44,6 +45,7 @@ const App = () => {
         <select
           value={form.periodType}
           onChange={(e) => changedHandler(e, "periodType")}
+          id="data-period-type"
           type="text"
           data-period-type
           className="input1"
@@ -60,6 +62,7 @@ const App = () => {
           <input
             value={form.timeToElapse}
             onChange={(e) => changedHandler(e, "timeToElapse")}
+            id="time-to-elapse"
             type="number"
             placeholder="Please Enter a value"
             name="time-to-elapse"
@@ -75,6 +78,7 @@ const App = () => {
           <input
             value={form.reportedCases}
             onChange={(e) => changedHandler(e, "reportedCases")}
+            id="reported-cases"
             type="number"
             placeholder="Please Enter a value"
             name="reported-cases"
@@ -90,6 +94,7 @@ const App = () => {
           <input
             value={form.totalHospitalBeds}
             onChange={(e) => changedHandler(e, "totalHospitalBeds")}
+            id="total-hospital-beds"
             type="number"
             placeholder="Please Enter a value"
             name="total-hospital-beds"
