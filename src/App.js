@@ -103,7 +103,9 @@ const App = () => {
           />
         </div>
 
-        <button className="contact1-form-btn">Submit Data</button>
+        <button data-go-estimate className="contact1-form-btn">
+          Submit Data
+        </button>
       </form>
     </div>
   );
